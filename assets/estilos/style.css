@@ -4,10 +4,23 @@
     box-sizing: border-box;
 }
 
+header>h1{
+    font-size: 40px;
+}
+
+nav {
+    
+    display:block;
+    height: 370px;
+    width:98.7vw;
+    background-image: url(../imagenes/design2_image1.jpg);
+    
+}
 nav > a{
+    font-size: 25px;
     position: relative;
-    top: 10px;
-    left:200px ;
+    top: -15px;
+    left: 65vw;
     display:inline-block;
     border: 1px solid blue;
     background-color: blue;
@@ -16,15 +29,20 @@ nav > a{
     
 }
 
-a:active {
+a::active {
     background-color: green;
 }
-
+/*
 img.fondo {
-        
-}
+
+    width: auto;
+    height:30vh;
+
+     /* inline-size: 1000px; 
+}*/
 
 main h2 {
+    font-size: 25px;
     border: 1px solid black;
     margin-top: 0 ;
     text-align: center;
@@ -32,7 +50,8 @@ main h2 {
 
 section{
     position:absolute;
-    top:300px;
+    top:550px;
     left: 200px;
+    font-size: 20px;
 }
 
