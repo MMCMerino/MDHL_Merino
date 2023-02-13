@@ -12,9 +12,10 @@ nav {
     
     display:block;
     height: 37vh;
-    width:100vw;
+    /*width:100vw;*/
     background: url(../imagenes/design2_image1.jpg) left no-repeat ;
-    
+    background-attachment:fixed ;
+    background-size: 100% 100%;
 }
 a:hover {
     background-color: green;
@@ -24,7 +25,7 @@ nav > a{
     font-size: 25px;
     position: relative;
     top: -15px;
-    left: 40vw;
+    left: 65vw;
     display:inline-block;
     background-color: blue;
     color:white;
@@ -40,11 +41,11 @@ img.fondo {
     width: auto;
     height:30vh;
 
-     /* inline-size: 1000px; 
+    inline-size: 1000px; 
 }*/
 
 main h2 {
-    width: 870px;
+    /*width: 870px;*/
     font-size: 25px;
     border: 1px solid black;
     margin-top: 0 ;
