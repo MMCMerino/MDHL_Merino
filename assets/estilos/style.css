@@ -71,7 +71,7 @@ section{
 main h3{
     text-align: center;
 }
-
+/* Estilos hoja rules.html*/
 /*dl{
     background-color: rgb(161, 228, 228);
 
@@ -101,4 +101,41 @@ ol{
 .abcd{
    
     list-style: lower-latin;
+}
+
+/* Estilos hoja game_info.html*/
+
+
+main {
+      background-color: bisque;
+}
+
+main > p{
+    font-size: 20px;
+}
+
+
+
+table{
+    
+    border: 1px solid red;
+    margin: 10px 1px;
+}
+
+thead th{
+    border: 1px solid blueviolet;
+}
+
+tbody td{
+    border: 1px solid orangered;
+}
+
+
+footer{
+    height: 20vh;
+    margin-top:7rem;
+    background-color: aquamarine;
+    text-align : center;
+    padding-top: 25px;
+    
 }
