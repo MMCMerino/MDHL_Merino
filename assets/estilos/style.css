@@ -6,6 +6,7 @@
 
 header>h1{
     font-size: 40px;
+    
     }
 
 nav {
@@ -18,16 +19,16 @@ nav {
     background-size: 100% 100%;
 }
 a:hover {
-    background-color: green;
+    background-color: rgb(47, 153, 47);
 
 }
 nav > a{
     font-size: 25px;
     position: relative;
     top: -15px;
-    left: 65vw;
+    left: 50vw;
     display:inline-block;
-    background-color: blue;
+    background-color: rgb(16, 16, 73);
     color:white;
     
     
@@ -65,4 +66,39 @@ section{
     top: 480px;
     left:200px;
     font-size: 20px;
+}
+
+main h3{
+    text-align: center;
+}
+
+/*dl{
+    background-color: rgb(161, 228, 228);
+
+}*/
+
+dt{
+   margin-left: 2rem;
+   font-weight: bold;
+}
+
+
+
+dd{
+    
+    margin: 10px  1px 20px 1px;
+   
+}
+
+.sangria{
+    text-indent: 1rem;
+}
+
+ol{
+    margin-left: 2rem;
+}
+
+.abcd{
+   
+    list-style: lower-latin;
 }
