@@ -147,6 +147,12 @@ form{
     margin: 25px;
 
 }
+
 legend{
     margin-left: 10px;
+}
+
+label{
+    margin:3px;
+    
 }
