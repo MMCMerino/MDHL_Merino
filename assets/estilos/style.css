@@ -23,10 +23,10 @@ a:hover {
 
 }
 nav > a{
-    font-size: 25px;
+    font-size: 20px;
     position: relative;
     top: -15px;
-    left: 50vw;
+    left: 45vw;
     display:inline-block;
     background-color: rgb(16, 16, 73);
     color:white;
@@ -138,4 +138,15 @@ footer{
     text-align : center;
     padding-top: 25px;
     
+}
+
+
+/*Estilos pagina formulario*/
+
+form{
+    margin: 25px;
+
+}
+legend{
+    margin-left: 10px;
 }
