@@ -55,7 +55,7 @@
 
                     <label>
                         Zip Code
-                        <input type="texto" name="zip_code">
+                        <input type="text" name="zip_code">
                     </label>
                     <br>
                     <label>
@@ -63,7 +63,7 @@
                         <input type="date" name="birthday">
                     </label>
                     <br>
-                    <label class="gender">
+                    
                         Gender:
                         <input type="radio" id="female" name="gender" value="F">
                         <label for="female">Female</label>
@@ -71,9 +71,9 @@
                         <input type="radio" id="male" name="gender" value="M">
                         <label for="male">Male</label>  
                         
-                    </label>
+                    
                     <br>
-                    <label>
+                    
                         Grade:
                         <input type="radio" id="pre_school" name="grade" value="P_S">
                         <label for="pre_school">Pre-School</label>
@@ -87,7 +87,7 @@
                         <label for="4th">4th</label>
                         <input type="radio" id="5th" name="grade" value="5">
                         <label for="5th">5th</label>
-                    </label>
+                    
                     
             </fieldset>
 
@@ -110,14 +110,14 @@
             
              <p class="school" >What position(s) do you normally play? (check all that apply)</p>
             <fieldset>
-                <input type="checkbox" name="forward" value="F">
+                <input type="checkbox" name="forward" value="F" id="forward">
                 <label for="forward">Forward</label>
-                <input type="checkbox" name="midfield" value="M">
+                <input type="checkbox" name="midfield" value="M" id="midfield">
                 <label for="midfield">Mindfield</label>
                 <br>
-                <input type="checkbox" name="defense" value="D">
+                <input type="checkbox" name="defense" value="D" id="defense">
                 <label for="defense">Defense</label>
-                <input type="checkbox" name="goalkeeper" value="G">
+                <input type="checkbox" name="goalkeeper" value="G" id="goalkeeper">
                 <label for="goalkeeper">Goalkeeper</label>
             </fieldset>
 
@@ -125,8 +125,8 @@
                 <legend>Uniform Size</legend>
                 <input type="radio" id="ysmall" name="size" value="ysmall">
                 <label for="ysmall">Youth Small</label>
-                <input type="radio" id="ymedium" name="size" value="ymedium">
-                <label for="ymediun">Youth Medium</label>
+                <input type="radio" id="ym" name="size" value="ym">
+                <label for="ym">Youth Medium</label>
                 <input type="radio" id="ylarge" name="size" value="ylarge">
                 <label for="ylarge">Youth Large</label>
                 <input type="radio" id="small" name="size" value="small">
