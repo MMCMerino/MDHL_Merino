@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rules of Play & Policies</title>
-    <link rel="shortcut icon" href="./assets/imagenes/Logo_Mighty_ducks-01.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/imagenes/logo_mighty_ducks-01.png" type="image/x-icon">
     <link rel="stylesheet" href="./assets/estilos/style.css">
 
 </head>
@@ -44,7 +44,7 @@
                         Last name
                         <input type="text" name="last_name">                    
                     </label>
-
+                    <br>
                     <label for="address">Street Address</label>
                     <input type="text" name="address" id="address">
 
@@ -57,12 +57,12 @@
                         Zip Code
                         <input type="texto" name="zip_code">
                     </label>
-
+                    <br>
                     <label>
                         Birth Date (mm/dd/yyyy)
                         <input type="date" name="birthday">
                     </label>
-
+                    <br>
                     <label>
                         Gender:
                         
@@ -72,7 +72,7 @@
                         <label for="male">Male</label>  
                         <input type="radio" id="male" name="gender" value="M">
                     </label>
-
+                    <br>
                     <label>
                         Grade:
                         <input type="radio" id="pre_school" name="grade" value="P_S">
@@ -95,21 +95,16 @@
 
             <fieldset>
                 <legend>Closest School:</legend>
+                <select name="school">
+                    <option value="AJK"> AJ Katzenmaier</option>
+                    <option value="MPH">Marjorie P Hart</option>
+                    <option value="G" selected>Greenbay</option>
+                    <option value="NE">North Elementary</option>
+                    <option value="HAY">Howard a Yeager</option>
+                    <option value="SE">South Elementary</option>
 
-                <input type="radio" id="ajk" name="school" value="AJK">
-                <label for="ajk">AJ Katzenmaier</label>
-                <input type="radio" id="mph" name="school" value="MPH">
-                <label for="mph">Marjorie P Hart</label> 
-                <br>
-                <input type="radio" id="g" name="school" value="G">
-                <label for="g">Greenbay</label> 
-                <input type="radio" id="ne" name="school" value="NE">
-                <label for="ne">North Elementary</label>
-                <br>
-                <input type="radio" id="hay" name="school" value="HAY">
-                <label for="hay">Howard A Yeager</label>
-                <input type="radio" id="se" name="school" value="SE">
-                <label for="se">South Elementary</label> 
+                </select>
+                
             </fieldset>
 
             
@@ -128,10 +123,43 @@
 
             <fieldset>
                 <legend>Uniform Size</legend>
-                <input type="radio" id="" name="" value="">
-                <label for=""></label>
+                <input type="radio" id="ysmall" name="size" value="ysmall">
+                <label for="ysmall">Youth Small</label>
+                <input type="radio" id="ymedium" name="size" value="ymedium">
+                <label for="ymediun">Youth Medium</label>
+                <input type="radio" id="ylarge" name="size" value="ylarge">
+                <label for="ylarge">Youth Large</label>
+                <input type="radio" id="small" name="size" value="small">
+                <label for="small">Small</label>
+                <input type="radio" id="medium" name="size" value="medium">
+                <label for="medium">Medium</label>
+                <input type="radio" id="large" name="size" value="large">
+                <label for="large">Large</label>
+                <input type="radio" id="extra_large" name="size" value="extra_large">
+                <label for="extra_large">Extra Large</label>
+
             </fieldset>
 
+            <fieldset>
+                <legend>Permission to Play</legend>
+                <p> I, the parend or guardian of the minor registrant, agree that the registrant and I will abide by all the
+                     rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury
+                    associated with hockey and in consideration for the "League" accepting the registrant for its 
+                    hockey programs and activities, I hereby release, discharge, and/or atherwise indemnify MDHL,
+                    their employees and associates personnel and volunteers, includin the facilities used for 
+                    practices and games, against any claim by or on behalf of the registrant as a result of the 
+                    registrant's participation in the programand/orbeing transported to or from MDHL sponsored 
+                    activities, which transportation. 
+                    By entering your name below, I here by agree andauthorizethe above, by signing below, I also 
+                    acknowledge that I have read the cancellation policy and agree to its terms.
+                    </p>
+                <label for="permission">Parent/ Guardian Signature:</label>
+                <input type="text" name="permission" id="permission">
+                <br>
+                    <label>Date:
+                        <input type="date" name="date">
+                    </label>
+            </fieldset>
 
              <br>
             <input type="submit" value="Enviar">
