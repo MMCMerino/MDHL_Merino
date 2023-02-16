@@ -19,17 +19,19 @@ nav {
     background-size: 100% 100%;
 }
 a:hover {
-    background-color: rgb(47, 153, 47);
+    background-color: rgb(16, 16, 139);
 
 }
 nav > a{
     font-size: 20px;
     position: relative;
     top: -15px;
-    left: 45vw;
+    left: 43vw;
     display:inline-block;
     background-color: rgb(16, 16, 73);
     color:white;
+    border-radius: 3px;
+    padding:5px;
     
     
     
@@ -82,10 +84,9 @@ main h3{
     text-align: center;
 }
 /* Estilos hoja rules.html*/
-/*dl{
-    background-color: rgb(161, 228, 228);
-
-}*/
+main{
+    font-size: large;
+}
 
 dt{
    margin-left: 2rem;
@@ -93,11 +94,8 @@ dt{
 }
 
 
-
-dd{
-    
-    margin: 10px  1px 20px 1px;
-   
+dd{ 
+    margin: 10px  1px 20px 1px; 
 }
 
 .sangria{
@@ -115,9 +113,6 @@ ol{
 
 /* Estilos hoja game_info.html*/
 
-
-
-
 main>p{
     font-size: 20px;
 }
@@ -125,7 +120,7 @@ main>p{
 
 
 table{
-    background-color: aquamarine;
+   /* background-color: rgb(208, 216, 213);*/
     height: 400px;
     width: 600px;
     border: 1px solid red;
@@ -135,7 +130,7 @@ table{
 }
 
 thead th{
-    border: 1px solid blueviolet;
+    border: 1px solid rgb(139, 2, 2);
 }
 
 tbody td{
@@ -143,10 +138,10 @@ tbody td{
 }
 
 article{
-    background-color: blue;
+    background-color: red;
     display:flex;
-    height:410px;
-    width: 900px;
+    height:400px;
+    width: 1000px;
     flex-wrap: wrap;
     align-items: center;
 }
@@ -156,6 +151,7 @@ article{
     width: 300px;
     border: 1px solid black;
     justify-content: center;
+    margin: 10px;
     
    
 }
@@ -178,17 +174,36 @@ form{
 
 }
 
+fieldset{
+
+    
+    padding: 10px;
+    border-radius: 10px;
+    color: rgb(54, 51, 51);
+}
+
 legend{
-    margin-left: 10px;
+    font-size: 18px;
+    margin-left: 20px;
 }
 
 label{
-    margin:3px;
+    
+    margin:5px 20px 5px 2px;
     
 }
+
+
 
 
 .school{
     margin-top: 15px;
     margin-bottom: 5px;
+    
+}
+
+#paragraph{
+    margin-bottom: 20px;
+    text-indent: 15px;
+
 }
