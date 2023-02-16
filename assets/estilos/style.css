@@ -53,10 +53,20 @@ main h2 {
     text-align: center;
 }
 
+main>img{
+
+    
+    display:flex;
+
+}
+
 section{
-    position:absolute;
-    top:400px;
+    
+    position: relative;
+    top: -230px;
     left: 200px;
+    width:1000px;
+    
     font-size: 20px;
 }
 
@@ -106,20 +116,22 @@ ol{
 /* Estilos hoja game_info.html*/
 
 
-main {
-      /*background-color: bisque;*/
-}
 
-main > p{
+
+main>p{
     font-size: 20px;
 }
 
 
 
 table{
-    
+    background-color: aquamarine;
+    height: 400px;
+    width: 600px;
     border: 1px solid red;
     margin: 10px 1px;
+    text-align: center;
+    
 }
 
 thead th{
@@ -128,6 +140,24 @@ thead th{
 
 tbody td{
     border: 1px solid orangered;
+}
+
+article{
+    background-color: blue;
+    display:flex;
+    height:410px;
+    width: 900px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.maps{
+    height: 150px;
+    width: 300px;
+    border: 1px solid black;
+    justify-content: center;
+    
+   
 }
 
 
@@ -159,6 +189,6 @@ label{
 
 
 .school{
-    margin: top 15px;px;
+    margin-top: 15px;
     margin-bottom: 5px;
 }
